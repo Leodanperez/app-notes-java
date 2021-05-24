@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppNotas</string>
+    <string name="titulo">Mis Notas</string>
+    <string name="txt_search">Buscar notas</string>
+    <string name="note_title">Titulo</string>
+</resources>
