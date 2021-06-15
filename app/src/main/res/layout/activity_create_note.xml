@@ -108,6 +108,18 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/inputNoteSubTitle"/>
 
+            <ImageView
+                android:id="@+id/imageNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/inputNoteSubTitle"/>
+
             <LinearLayout
                 android:id="@+id/layoutWebUrl"
                 android:layout_width="match_parent"
@@ -163,6 +175,10 @@
                 app:layout_constraintTop_toBottomOf="@id/layoutWebUrl"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </ScrollView>
+    <!--include layout="@layout/layout_changecolors"/-->
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

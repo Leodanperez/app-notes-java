@@ -17,5 +17,11 @@
     <color name="colorIcons">#A4A4A4</color>
     <color name="colorDelete">#ff4842</color>
     <color name="colorChangeColor">#1f1f1f</color>
+    <color name="colorDefaultNoteColor">#333333</color>
+    <color name="colorDefaultNoteColor2">#fdbe3b</color>
+    <color name="colorDefaultNoteColor3">#FF4842</color>
+    <color name="colorDefaultNoteColor4">#3A52FC</color>
+    <color name="colorDefaultNoteColor5">#000000</color>
+    <color name="colorSelectBackground">#1f1f1f</color>
     <color name="colorQuickActionsBackground">#2f2d2e</color>
 </resources>
