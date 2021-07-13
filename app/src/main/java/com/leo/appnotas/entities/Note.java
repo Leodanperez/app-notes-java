@@ -1,4 +1,4 @@
-package com.leo.appnotas;
+package com.leo.appnotas.entities;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;

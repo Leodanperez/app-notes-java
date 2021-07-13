@@ -1,10 +1,12 @@
-package com.leo.appnotas;
+package com.leo.appnotas.dao;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+
+import com.leo.appnotas.entities.Note;
 
 import java.util.List;
 
