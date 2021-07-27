@@ -63,6 +63,11 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
         return notes.size();
     }
 
+    @Override
+    public int getItemViewType(int position) {
+        return position;
+    }
+
     static class NoteViewHolder extends RecyclerView.ViewHolder {
         TextView textTitle, textSubtitle, textDateTime;
         LinearLayout layoutNote;
